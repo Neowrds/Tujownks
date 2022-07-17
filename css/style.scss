@@ -1,0 +1,1125 @@
+//-------------- MOBILE VIEW -----------------//
+
+@media only screen and (min-width: 500px) {
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    margin: 1.5em;
+    background-color: rgb(248, 248, 248);
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+
+
+  header {
+    justify-content: center;
+  }
+
+
+  nav {
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: rgb(29, 29, 29);
+    height: 100vh;
+    width: 50%;
+    z-index: 9999;
+    text-transform: uppercase;
+    transform: translateX(100%);
+    transition: transform .5s ease-in-out;
+
+    .close-menu-burger {
+      width: 2em;
+      margin-left: 75%;
+      margin-top: 1.5em;
+    }
+
+    ul {
+      margin-top: 20px;
+      padding: 0px;
+
+      li {
+        a {
+          padding: .75em 2em;
+          display: block;
+          color: rgb(192, 192, 192);
+        }
+
+        a:hover {
+          background: rgba(255, 255, 255, 0.137);
+          color: white;
+        }
+      }
+
+
+    }
+  }
+
+
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+    svg {
+      cursor: pointer;
+    }
+
+
+  }
+
+  .hero-img {
+    img {
+      margin-top: 2em;
+      padding: 0px;
+      width: 100%;
+      justify-content: center;
+
+    }
+  }
+
+
+  .nav-smedia {
+    margin: none;
+
+
+    ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      align-content: center;
+      margin: none;
+      margin-left: 0px;
+      padding-left: 0px;
+
+      li {
+        margin-right: 20px;
+      }
+    }
+  }
+
+  .about-us {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 2em;
+
+    img {
+      width: 100%;
+    }
+
+    article {
+      h6 {
+        color: rgb(74, 74, 74);
+        font-size: 1em;
+        margin: auto;
+      }
+
+      h3 {
+        color: rgb(48, 48, 48);
+        font-size: 3em;
+        margin: auto;
+      }
+
+      p {
+        font-size: 1em;
+        margin: auto;
+      }
+    }
+
+
+
+  }
+
+
+  .server-sc {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 2em;
+
+    img {
+      width: 85%;
+      margin: auto;
+    }
+
+    article {
+      h6 {
+        color: rgb(74, 74, 74);
+        font-size: 1em;
+        margin: auto;
+      }
+
+      h3 {
+        color: rgb(48, 48, 48);
+        font-size: 3em;
+        margin: auto;
+      }
+
+      p {
+        font-size: 1em;
+        margin: auto;
+      }
+    }
+  }
+
+  .relic-war {
+    display: flex;
+    flex-direction: column;
+    background-image: url("/img/relic-war-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    iframe {
+      align-content: center;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 7em;
+      margin-bottom: 1em;
+      height: 300px;
+      width: 400px;
+    }
+
+
+    .video-des {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      padding: 1em 1em 1em 1em;
+
+
+      svg {
+        margin-bottom: 0.5em;
+        margin-top: 0em;
+        width: 90%;
+      }
+
+    }
+
+    p {
+      text-align: center;
+      margin: 1em;
+      color: white;
+      font-size: 1em;
+    }
+
+    button {
+      text-align: center;
+      border: none;
+      background-color: #F71300;
+      border-radius: 100px;
+      padding: 20px;
+      width: 15em;
+      font-size: 18px;
+      margin-bottom: 6em;
+      margin-top: 1em;
+
+      a {
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+      }
+
+
+    }
+
+
+  }
+
+  .how-to-join {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+
+    img {
+      width: 100%;
+    }
+
+    article {
+      h6 {
+        color: rgb(74, 74, 74);
+        font-size: 1em;
+        margin: auto;
+      }
+
+      h3 {
+        color: rgb(48, 48, 48);
+        font-size: 3em;
+        margin: auto;
+      }
+
+      p {
+        font-size: 1em;
+        margin: auto;
+      }
+
+      button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        background-color: #5567E3;
+        color: white;
+        border-radius: 100px;
+        padding: 20px;
+        width: 15em;
+        font-size: 18px;
+        margin-top: 2em;
+        font-weight: 700;
+        margin-left: auto;
+        margin-right: auto;
+
+        svg {
+          margin-right: 0.5em;
+        }
+
+        span {
+          font-weight: 300;
+        }
+      }
+    }
+  }
+
+  .gallery {
+    justify-content: center;
+    margin-top: 4em;
+    margin-bottom: 0.5em;
+
+    h3 {
+      margin-bottom: 0.5em;
+      color: rgb(48, 48, 48);
+      font-size: 3em;
+      text-align: center;
+    }
+
+    .gallery-photos {
+      display: grid;
+      grid-template-columns: 1fr;
+      row-gap: 0.5em;
+      column-gap: 0.5em;
+      justify-content: center;
+      margin-top: 1em;
+
+      img {
+
+        width: 100%;
+        margin: auto;
+      }
+    }
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #272727;
+    color: white;
+    align-items: center;
+    margin: auto;
+    padding: 2em;
+
+    svg {
+      margin-top: 3em;
+      margin-bottom: 4em;
+    }
+
+    ul {
+      padding: 0;
+
+      li {
+        color: white;
+        text-align: center;
+        margin-bottom: 2em;
+
+        a {
+          text-decoration: none;
+          color: white;
+
+        }
+
+        a:hover {
+          padding-bottom: .4em;
+          border-bottom: 2px solid white;
+
+        }
+
+      }
+    }
+
+    p {
+      text-align: center;
+      line-height: 1.7em;
+
+      span {
+        font-weight: 700;
+      }
+    }
+
+    .socmed-footer {
+
+      ul {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+        margin-bottom: 0;
+        height: 1%;
+
+
+        li {
+          margin-right: 1em;
+          margin-left: 1em;
+          margin-bottom: 0;
+
+          svg {
+            margin: 1em;
+          }
+        }
+
+      }
+
+    }
+  }
+}
+
+
+.open-nav {
+  transform: translateX(0);
+}
+
+//-------------- 680 TABLET VIEW -----------------//
+
+@media only screen and (min-width: 680px) {
+  body {
+    margin: 2em;
+    font-family: 'Poppins', sans-serif;
+
+  }
+
+  .relic-war {
+    display: flex;
+    flex-direction: column;
+    background-image: url("/img/relic-war-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    iframe {
+      align-content: center;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 7em;
+      margin-bottom: 1em;
+      height: 300px;
+      width: 500px;
+    }
+
+
+    .video-des {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      padding: 1em 1em 1em 1em;
+
+
+      svg {
+        margin-bottom: 0.5em;
+        margin-top: 0em;
+        width: 80%;
+      }
+
+    }
+
+    p {
+      text-align: center;
+      margin: 1em;
+      color: white;
+      font-size: 1em;
+    }
+
+    button {
+      text-align: center;
+      border: none;
+      background-color: #F71300;
+      border-radius: 100px;
+      padding: 20px;
+      width: 15em;
+      font-size: 18px;
+      margin-bottom: 6em;
+      margin-top: 1em;
+
+      a {
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+      }
+
+
+    }
+
+
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #272727;
+    color: white;
+    align-items: center;
+    margin: auto;
+    padding: 2em;
+
+    svg {
+      margin-top: 3em;
+      margin-bottom: 4em;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 0;
+
+      li {
+        color: white;
+        text-align: center;
+        margin-bottom: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
+
+        a {
+          text-decoration: none;
+          color: white;
+
+        }
+
+        a:hover {
+          padding-bottom: .4em .4em;
+          border-bottom: 2px solid white;
+
+        }
+
+      }
+    }
+
+    p {
+      text-align: center;
+      line-height: 1.7em;
+
+      span {
+        font-weight: 700;
+      }
+    }
+
+    .socmed-footer {
+
+      ul {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+        margin-bottom: 0;
+        height: 1%;
+
+
+        li {
+          margin-right: 1em;
+          margin-left: 1em;
+          margin-bottom: 0;
+
+          svg {
+            margin: 1em;
+          }
+        }
+
+      }
+
+    }
+
+  }
+
+
+}
+
+//--------------- 920 LARGER TABLE VIEW-------------//
+
+@media only screen and (min-width:920px) {
+
+  body {
+    margin: 0.5em;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+    nav {
+      width: 100%;
+      height: 100%;
+      align-items: center;
+      position: unset;
+      background: none;
+      text-transform: capitalize;
+      z-index: 9999;
+      transform: translateX(0);
+      padding-right: 5%;
+      padding-left: 5%;
+
+
+      .close-menu-burger {
+        display: none;
+      }
+
+      ul {
+        display: flex;
+        flex-direction: row;
+
+
+        li {
+          a {
+            font-weight: 500;
+            color: #747474;
+            margin-right: 1em;
+            margin-bottom: 1em;
+            padding-bottom: 0.5em;
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+          }
+
+          a:hover {
+            border-bottom: 1px solid black;
+            margin-bottom: -1em;
+            margin-right: 1em;
+            background: none;
+            color: black;
+            transition: 0.2s;
+
+          }
+        }
+      }
+    }
+  }
+
+  .hero-img {
+
+
+    img {
+      margin: auto;
+      margin-top: 15%;
+      padding-top: 0;
+      width: 100%;
+    }
+  }
+
+  .about-us {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2em;
+
+    img {
+      width: 100%;
+    }
+
+    article {
+      width: 100%;
+
+      h6 {
+        color: rgb(74, 74, 74);
+        font-size: 1em;
+        margin: auto;
+      }
+
+      h3 {
+        color: rgb(48, 48, 48);
+        font-size: 3em;
+        margin: auto;
+      }
+
+      p {
+        font-size: 1em;
+        margin: auto;
+
+      }
+    }
+  }
+
+  .server-sc {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 2em;
+
+    img {
+      margin: auto;
+      width: 50%;
+    }
+
+    article {
+      width: 100%;
+
+      h6 {
+        color: rgb(74, 74, 74);
+        font-size: 1em;
+        margin: auto;
+      }
+
+      h3 {
+        color: rgb(48, 48, 48);
+        font-size: 3em;
+        margin: auto;
+      }
+
+      p {
+        font-size: 1em;
+        margin: auto;
+      }
+    }
+  }
+
+  .relic-war {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+
+    iframe {
+      height: 600px;
+      width: 800px;
+    }
+
+    .video-des {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      padding: 1em 1em 1em 1em;
+      margin-bottom: 2em;
+
+
+
+      svg {
+        width: 80%;
+        margin: none;
+      }
+
+
+      p {
+        text-align: center;
+        margin: 1em;
+        color: white;
+        font-size: 1em;
+      }
+
+      button {
+        text-align: center;
+        border: none;
+        background-color: #F71300;
+        border-radius: 100px;
+        padding: 20px;
+        width: 15em;
+        font-size: 18px;
+        margin-bottom: 4em;
+        margin-top: 1em;
+
+        a {
+          text-decoration: none;
+          color: white;
+          cursor: pointer;
+        }
+
+      }
+    }
+
+
+  }
+
+  .how-to-join {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2em;
+
+
+    img {
+      width: 50%;
+    }
+
+    article {
+      width: 60%;
+
+      h6 {
+        color: rgb(74, 74, 74);
+        font-size: 1em;
+        margin: auto;
+      }
+
+      h3 {
+        color: rgb(48, 48, 48);
+        font-size: 3em;
+        margin: auto;
+      }
+
+      p {
+        font-size: 1em;
+        margin: auto;
+      }
+
+      button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        background-color: #5567E3;
+        color: white;
+        border-radius: 100px;
+        padding: 20px;
+        width: 15em;
+        font-size: 18px;
+        margin-top: 2em;
+        font-weight: 700;
+        margin-left: 0;
+
+        svg {
+          margin-right: 0.5em;
+        }
+
+        span {
+          font-weight: 300;
+        }
+      }
+    }
+  }
+
+  .gallery {
+
+    justify-content: center;
+    margin-top: 3em;
+    margin-bottom: 0.5em;
+
+    h3 {
+      margin-bottom: 0.5em;
+      color: rgb(48, 48, 48);
+      font-size: 3em;
+      text-align: center;
+    }
+
+    .gallery-photos {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      row-gap: 0.5em;
+      column-gap: 0.5em;
+      justify-content: center;
+      margin-top: 1em;
+
+      img {
+        height: 100%;
+        width: 100%;
+        margin: auto;
+      }
+    }
+  }
+
+  footer {
+    p {
+      width: 50%;
+    }
+  }
+}
+
+
+//---------1280 DESKTOP VERSION-----------------//
+@media only screen and (min-width: 1280px) {
+  body {
+    margin: 1.5em;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .top-nav-menu {
+    margin-left: 0%;
+  }
+
+  .nav-smedia {
+    margin-right: 0%;
+  }
+
+  .hero-img {
+    margin: auto;
+    width: 90%;
+
+    img {
+      padding-top: none;
+    }
+  }
+
+
+  .about-us {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5em;
+
+    img {
+      width: 100%;
+    }
+
+    article {
+      width: 75%;
+
+      h6 {
+        color: rgb(74, 74, 74);
+        font-size: 1em;
+        margin: auto;
+      }
+
+      h3 {
+        color: rgb(48, 48, 48);
+        font-size: 3em;
+        margin: auto;
+      }
+
+      p {
+        font-size: 1em;
+        margin: auto;
+
+      }
+    }
+  }
+
+  .server-sc {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+    img {
+      margin: auto;
+      width: 45%;
+    }
+
+    article {
+      width: 75%;
+
+      h6 {
+        color: rgb(74, 74, 74);
+        font-size: 1em;
+        margin: auto;
+      }
+
+      h3 {
+        color: rgb(48, 48, 48);
+        font-size: 3em;
+        margin: auto;
+      }
+
+      p {
+        font-size: 1em;
+        margin: auto;
+      }
+    }
+  }
+
+  .relic-war {
+    iframe {
+      margin-top: 10em;
+      height: 500px;
+      width: 800px;
+    }
+
+    .video-des {
+      svg {
+        margin-top: 2em;
+        margin-bottom: 2em;
+      }
+
+      p {
+        width: 50%
+      }
+    }
+  }
+}
+
+
+
+
+//----------- 1920 FULL DESKTOP PREVIEW--------------//
+@media only screen and (min-width: 1920px) {
+  body {
+    margin: 1em;
+  }
+
+  .top-nav-menu {
+    margin-left: 15%;
+  }
+
+  .nav-smedia {
+    margin-right: 15%;
+  }
+
+
+
+
+  .hero-img {
+    margin-top: 5%;
+    width: 1000px;
+    margin: auto;
+  }
+
+  .about-us {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .server-sc {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5em;
+  }
+
+  .relic-war {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-image: url("/img/relic-war-bg.png");
+    height: 900px;
+
+    iframe {
+      margin: auto;
+      height: 500px;
+      width: 850px;
+    }
+
+
+    .video-des {
+      display: grid;
+      grid-template-columns: 1fr;
+      align-content: center;
+      align-items: center;
+      margin-left: 3em;
+      margin-bottom: 0;
+      padding: 1em 1em 1em 1em;
+
+
+      svg {
+        margin-bottom: 0.5em;
+        margin-top: 1em;
+        width: 100%;
+      }
+
+      p {
+        width: 100%;
+        text-align: left;
+        margin: 1em;
+        color: white;
+        font-size: 1em;
+      }
+
+    }
+
+
+
+    button {
+      text-align: center;
+      border: none;
+      background-color: #F71300;
+      border-radius: 100px;
+      padding: 20px;
+      width: 15em;
+      font-size: 18px;
+      margin-bottom: 4em;
+      margin-top: 1em;
+
+      a {
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+      }
+
+
+    }
+
+
+  }
+
+  .how-to-join {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5em;
+    margin-bottom: 5em;
+
+    img {
+      width: 45%;
+    }
+
+    article {
+      margin-left: 2em;
+      width: 70%;
+
+      button {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .gallery {
+    margin-left: 15%;
+    margin-right: 15%;
+
+    h3 {
+      margin-bottom: 1em;
+    }
+  }
+
+  footer {
+    p {
+      width: 20%;
+    }
+
+    .socmed-footer {
+      a:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
